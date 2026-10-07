@@ -261,7 +261,7 @@ export const AuthPage: React.FC = () => {
                         type="text"
                         value={firstName}
                         onChange={(e) => setFirstName(e.target.value)}
-                        placeholder="O‘ktam"
+                        placeholder="Sarvinoz"
                         className={`w-full px-4 py-2.5 rounded-xl border ${
                           fieldErrors.first_name ? 'border-red-400 bg-red-50/30' : 'border-[#D6E5E1]'
                         } text-[#17211F] placeholder-[#64716D]/50 text-sm focus:outline-none focus:ring-2 focus:ring-[#007A63]`}
@@ -283,7 +283,7 @@ export const AuthPage: React.FC = () => {
                         type="text"
                         value={lastName}
                         onChange={(e) => setLastName(e.target.value)}
-                        placeholder="Abdumo‘minov"
+                        placeholder="Ismailova"
                         className={`w-full px-4 py-2.5 rounded-xl border ${
                           fieldErrors.last_name ? 'border-red-400 bg-red-50/30' : 'border-[#D6E5E1]'
                         } text-[#17211F] placeholder-[#64716D]/50 text-sm focus:outline-none focus:ring-2 focus:ring-[#007A63]`}
@@ -306,7 +306,7 @@ export const AuthPage: React.FC = () => {
                       type="text"
                       value={group}
                       onChange={(e) => setGroup(e.target.value)}
-                      placeholder="162-23"
+                      placeholder="172-23"
                       className={`w-full px-4 py-2.5 rounded-xl border ${
                         fieldErrors.group ? 'border-red-400 bg-red-50/30' : 'border-[#D6E5E1]'
                       } text-[#17211F] placeholder-[#64716D]/50 text-sm focus:outline-none focus:ring-2 focus:ring-[#007A63]`}
